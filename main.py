@@ -2,7 +2,7 @@ import json
 from models.user import User
 from service.datastore import DataStore
 
-user = User(id=None, fullname="Dimal jay", nic="200301602744", telephone="0763590293")
+user = User(id=None, fullname="Dimal jay", nic="123456789", telephone="123456789")
 
 database = DataStore(path='database.db.enc64')
 
